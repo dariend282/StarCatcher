@@ -21,11 +21,11 @@ const addScore = () => {
 }
 
 function moveStars() {
-	stars.style.top = Math.random()*400+'px';
-  stars.style.left = Math.random()*300+'px';
+	stars.style.top = Math.random()*0+'px';
+  stars.style.left = Math.random()*0+'px';
 }
 
-setInterval(moveStars, 500);
+setInterval(moveStars, 0);
 
 stars.addEventListener("click", addScore);
 
